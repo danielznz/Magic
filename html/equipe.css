@@ -1,4 +1,4 @@
-/* Reset de CSS básico para melhor consistência entre navegadores */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: #b22222; /* Vermelho não tão forte */
+    background-color: #b22222; 
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
