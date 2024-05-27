@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: top 10px;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    margin-top: 30px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+legend{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: larger;
+}
+
+form{
+    padding: 30px;
+}
+
+.formulario input{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 7px;
+
+    margin-bottom: 10px;
+}
+
+.formulario textarea{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+
+
+#incluirBrinquedo{
+    margin-top: 20px;
+    font-weight: bolder;
+
+}
+
+#incluirBrinquedo:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
