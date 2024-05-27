@@ -7,57 +7,89 @@
 </head>
 <body>
     <style>
-        nav {
-    background-color: #ba2339;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav {
+    background-color: #b22222; 
     padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 nav .img img {
     height: 80px;
-    width: 80px;
+    width: 100px;
 }
+
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
 }
+
 nav ul li {
     margin-left: 20px;
 }
+
 nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 footer {
-    background-color: #ba2339;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px;
 }
-footer img {
-    height: 50px;
+
+footer .imagem-footer img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
 }
+
 footer p {
-    margin: 10px 0;
+    font-size: 0.9em;
 }
+
+footer .copy {
+    font-weight: bold;
+}
+
 footer form {
-    margin-top: 10px;
+    margin-top: 15px;
 }
+
+footer form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
 footer form input[type="text"] {
-    padding: 10px;
-    width: calc(100% - 22px);
-    margin: 5px 0;
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
+
 footer form input[type="submit"] {
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
+    padding: 8px 16px;
+    background-color: #b22222;
+    color: #fff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
+
+footer form input[type="submit"]:hover {
+    background-color: #a02020;
+}
+
+
     </style>
 
     <nav>
