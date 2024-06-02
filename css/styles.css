@@ -45,6 +45,7 @@ body{
 }
 
 .nav-links a{
+    text-decoration: none;
     margin: 2px 20px;
     cursor: pointer;
 }
@@ -143,6 +144,9 @@ body{
     margin-bottom: 5px;
 }
 
+
+/*Rodapé*/
+
 footer {
     background-color: var(--footer-background);
     color: var(--text-color);
@@ -165,16 +169,3 @@ footer .contact-info i {
     color: var(--primary-color);
 }
 
-/* Add link styles */
-a {
-    text-decoration: none;
-    color: var(--link-color); /* Use link color variable */
-}
-
-a:visited {
-    color: var(--visited-link-color); /* Use visited link color variable */
-}
-
-a:hover {
-    color: var(--primary-color); /* Use primary color for hover */
-}
