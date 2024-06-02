@@ -48,6 +48,7 @@ body{
     text-decoration: none;
     margin: 2px 20px;
     cursor: pointer;
+    color: white;
 }
 
 .nav-links a:hover{
