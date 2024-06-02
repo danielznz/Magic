@@ -208,3 +208,57 @@ footer .contact-info i {
     border-radius: 10px;
     margin-bottom: 15px;
 }
+
+/* fim pagina da esquipe*/
+
+/* login adm pagina*/
+
+.login-section {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black ;
+    padding: 20px;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.login-section h1 {
+    margin-bottom: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#login-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#login-form button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#login-form button:hover {
+    background-color: var(--hover-color);
+    color:black ;
+}
