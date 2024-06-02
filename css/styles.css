@@ -262,3 +262,204 @@ footer .contact-info i {
     background-color: var(--hover-color);
     color:black ;
 }
+
+/*fim do login adm*/
+
+/*tela admin*/
+
+.admin-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.admin-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: var(--card-background);
+    color: var(--text-color);
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.admin-card:hover {
+    background-color: var(--card-hover-background);
+    transform: translateY(-5px);
+}
+
+/* fim tela de admin*/
+
+/*tela gerenciamento de usuarios*/
+
+.admin-section{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black ;
+    padding: 20px;
+    margin-top: 120px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+form#add-admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
+
+form#add-admin-form label {
+    font-weight: bold;
+}
+
+form#add-admin-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form#add-admin-form button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+form#add-admin-form button:hover {
+    background-color:white;
+    color: black;
+}
+
+.admin-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-card .admin-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-card .admin-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.admin-card .admin-actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-card .admin-actions button.edit {
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+}
+
+.admin-card .admin-actions button.delete {
+    background-color: var(--secondary-color);
+    color: var(--button-text-color);
+}
+
+.admin-card .admin-actions button:hover {
+    background-color: var(--hover-color);
+}
+
+/*fim tela gerenciamneto de usuarios*/
+
+/*tela de incluir brinquedos*/
+
+.main-add-brinquedo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-brinquedo{
+    width: 600px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.add-brinquedo h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.add-brinquedo input, textarea{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.add-brinquedo input:focus, textarea:focus{
+    border: 1.8px solid black;
+}
+
+
+.form-group{
+    padding: 10px 20px;
+}
+
+ #input-file{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#input-file:hover{
+    background-color: white;
+    color: black;
+}
+
+ .save-button {
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.save-button:hover{
+     background-color: white;
+     color: black;
+}
