@@ -7,8 +7,6 @@
 
 body{
     margin: 0;
-    background-color: var(--background-color);
-    color: var(--text-color);
     font-family: "Source Sans 3", sans-serif;
     margin: 0;
     padding: 0;
@@ -58,22 +56,21 @@ body{
 /*fim da nav bar*/
 
 /* espaço do banner */
-.welcome-section {
+
+.banner{
+    margin-top:20px ;
+    height: 200px;
     text-align: center;
+    font-size: 26px;
 }
 
-.banner-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
+.banner img{
+    width: 86%;
+    height: 180px;
 }
 
-.welcome-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
 
+/*fim do banner */
 /* card dos produtos */
 
 .produto-card {
@@ -149,8 +146,8 @@ body{
 /*Rodapé*/
 
 footer {
-    background-color: var(--footer-background);
-    color: var(--text-color);
+    background-color: #c81d3f;
+    color: white;
     padding: 25px;
     text-align: center;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
