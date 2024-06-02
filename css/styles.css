@@ -55,6 +55,7 @@ body{
 
 /*fim da nav bar*/
 
+/* espaço do banner */
 .welcome-section {
     text-align: center;
 }
@@ -70,6 +71,8 @@ body{
     height: auto;
     display: block;
 }
+
+/* card dos produtos */
 
 .produto-card {
     border: 1px solid #ccc;
